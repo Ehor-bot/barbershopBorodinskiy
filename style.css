@@ -1,0 +1,229 @@
+html, body {
+  min-width: 960px;
+   
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: #000000 url(img/index-backgound.jpg) no-repeat center top;
+}
+
+.mainHeader {
+  margin-bottom: 60px; 
+  margin-top: 0 ;
+
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+
+.mainNavigation a {
+  display: block;
+  padding: 25px 20px;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mainNavigation {
+  float: left;
+  width: 780px;
+}
+
+.mainNavigation ul {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+  font-size: 0;
+}
+
+.mainNavigation li {
+  display: inline-block;
+
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.userBlock {
+  max-width: 140px;
+  float: right;
+}
+
+.userBlock a{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.login {
+  position: relative;
+
+  display: inline-block;
+  padding: 25px 20px;
+
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.login::before {
+  content: "";
+  position: absolute;
+  top: 27px;
+  right: 55px;
+
+  width: 18px;
+  height: 18px;
+
+  background: #000000 url("img/sprites.png") no-repeat;
+  background-position: -1px -210px;
+  opacity: 0.3;
+}
+
+.login:hover::before {
+  opacity: 1;
+}
+
+.login:hover {
+  background: #242424;
+}
+
+.mainNavigation a:hover {
+  background: #242424;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: block;
+  clear: both;
+}
+
+.indexLogo {
+  width: 368px;
+  height: 204px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.featuresItem {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+
+  text-align: center;
+}
+
+.featuresName {
+  position: relative;
+
+  display: block;
+  margin-bottom: 30px;
+  padding-bottom: 35px;
+
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.featuresItem p {
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.featuresName::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  transform: rotate(45deg);
+
+  background-color: #ffffff;
+}
+
+.featuresItem:last-child {
+  margin-right: 0;
+}
+
+.features {
+  margin-bottom: 80px;
+  margin-top: 120px;
+}
+
+.indexContent {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+
+  color: #000000;
+
+  background: #f8f8f8 url(img/content-background.jpg);
+}
+
+.indexContentLeft {
+  float: left;
+  width: 380px;
+}
+
+.indexContentRight {
+  float: right;
+  min-height: 330px;
+  width: 380px;
+  padding: 0 10px;
+
+  color: #000000;
+}
+
+.indexContent a {
+  display: block;
+  padding: 10px 20px;
+  width: 80px;
+  
+
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.indexContent a:hover {
+  background: #242424;
+}
+
+.indexContent ul {
+  list-style: none;
+  vertical-align: top;
+}
+
+.newsPreview {
+  padding-left: 0;
+}
+
+.indexContentTitle {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.mainFooter {
+  background-color: #333;
+  color: #ffffff;
+}
